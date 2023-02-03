@@ -161,10 +161,23 @@ color: #7D8589;
 }
 
 .client__img {
-    margin-top: 96px;
+    margin-top: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.client__img a {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding-left: 42px;
+    padding-right: 42px;
+    border-radius: 12px;
+}
+
+.client__img a:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* Guides */
