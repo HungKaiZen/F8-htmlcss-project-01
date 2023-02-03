@@ -15,40 +15,54 @@
 <body>
     <main>
         <!-- Begin: Header -->
-        <header class="header">
+        <header class="fixed-header">
             <div class="content">
                 <nav class="navbar">
-                    <img src="./assets/img/header/Logo.svg" alt="Besnik.">
+                    <a href="#">
+                        <img src="./assets/img/header/Logo.svg" alt="Besnik.">
+                    </a>
                     <ul class="nav">
-                        <li class="nav__item"><a href="#!" class="nav__item-link">Home</a></li>
-                        <li class="nav__item"><a href="#!" class="nav__item-link">Features</a></li>
-                        <li class="nav__item"><a href="#!" class="nav__item-link">Services</a></li>
-                        <li class="nav__item"><a href="#!" class="nav__item-link">Resources</a></li>
-                        <li class="nav__item"><a href="#!" class="nav__item-link">Contact</a></li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__item-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#features" class="nav__item-link">Features</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__item-link">Services</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#resources" class="nav__item-link">Resources</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__item-link">Contact</a>
+                        </li>
                     </ul>
                     <div class="actions">
                         <a href="#!" class="action__link">Sign in</a>
                         <a href="#!" class="btn action--btn">Sign up</a>
                     </div>
                 </nav>
-                <div class="hero">
-                    <div class="info">
-                        <p class="sub-title">Welcome to Besnik Agency</p>
-                        <h1 class="title">Discover a place you'll love to live.</h1>
-                        <p class="desc">
-                            Get the best real estate deals first,
-                            before they hit the mass market! hot foreclosure deals with one simple search.
-                        </p>
-                        <a href="#!" class="btn hero-cta">More About Us</a>
-                    </div>
-                    <img src="./assets/img/header/hero-img.svg" alt="Discover a place you'll love to live." class="hero__img">
-                </div>
             </div>
         </header>
+        <div class="hero-wrap">
+            <div class="content">
+                <div class="info">
+                    <p class="sub-title">Welcome to Besnik Agency</p>
+                    <h1 class="title">Discover a place you'll love to live.</h1>
+                    <p class="desc">
+                        Get the best real estate deals first,
+                        before they hit the mass market! hot foreclosure deals with one simple search.
+                    </p>
+                    <a href="#!" class="btn hero-cta">More About Us</a>
+                </div>
+                <img src="./assets/img/header/hero-img.svg" alt="Discover a place you'll love to live." class="hero__img">
+            </div>
+        </div>
         <!-- End: Header -->
 
         <!-- Bengin: Client -->
-        <div class="clients">
+        <div id="services" class="clients">
             <div class="content">
                 <div class="clients__row">
                     <img src="./assets/img/header/Logo.svg" alt="Besnik.">
@@ -86,7 +100,7 @@
         <!-- End: Client -->
 
         <!-- Begin: Guides -->
-        <div class="guides">
+        <div id="resources" class="guides">
             <div class="content">
                 <h2 class="sub-title">How its works?</h2>
                 <p class="desc">
@@ -126,7 +140,7 @@
         <!-- End: Guides -->
 
         <!-- Begin: Featured -->
-        <div class="featured">
+        <div id="features" class="featured">
             <div class="content">
                 <header>
                     <h2 class="title">Featured Properties</h2>
@@ -214,7 +228,7 @@
         <!-- End: Featured -->
 
         <!-- Begin: Stats -->
-        <div class="stats">
+        <div id="contact" class="stats">
             <div class="content">
                 <div class="row">
                     <div class="img-block">
